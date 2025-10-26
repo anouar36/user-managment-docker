@@ -13,7 +13,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   pgadmin:
-    image: dpage/pgadmin4:8.12   # آخر نسخة مستقرة وموجودة فعلاً على Docker Hub
+    image: dpage/pgadmin4:8.12
     container_name: pgadmin
     restart: always
     environment:
